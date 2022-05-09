@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="84662" started-at="2022-05-09T15:03:58 BST" finished-at="2022-05-09T15:05:22 BST">
+    <groups>
+      <group name="regression">
+        <method signature="RegisterPageTest.verifyThatUserShouldCreateAccountSuccessfully()[pri:-1, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyThatUserShouldCreateAccountSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        <method signature="ComputerPageTest.verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyErrorMessageWithInvalidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:2, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyThatUserShouldLogOutSuccessFully()[pri:3, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="VerifyThatUserShouldLogOutSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyErrorMessageWithInvalidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ComputerPageTest.verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.ComputerPageTest"/>
+        <method signature="LoginPageTest.verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyUserShouldNavigateToLoginPage" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="RegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression" duration-ms="84662" started-at="2022-05-09T15:03:58 BST" finished-at="2022-05-09T15:05:22 BST">
+      <class name="com.nopcommerce.demo.testsuite.RegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="4873" started-at="2022-05-09T15:03:58 BST" finished-at="2022-05-09T15:04:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="inIt" is-config="true" duration-ms="66" started-at="2022-05-09T15:04:03 BST" finished-at="2022-05-09T15:04:03 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldCreateAccountSuccessfully()[pri:-1, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyThatUserShouldCreateAccountSuccessfully" duration-ms="14605" started-at="2022-05-09T15:04:03 BST" finished-at="2022-05-09T15:04:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldCreateAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="769" started-at="2022-05-09T15:04:18 BST" finished-at="2022-05-09T15:04:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="3041" started-at="2022-05-09T15:04:18 BST" finished-at="2022-05-09T15:04:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="inIt" is-config="true" duration-ms="6" started-at="2022-05-09T15:04:22 BST" finished-at="2022-05-09T15:04:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory" duration-ms="811" started-at="2022-05-09T15:04:22 BST" finished-at="2022-05-09T15:04:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatFirstNameLastNameEmailPasswordAndConfirmPasswordFieldsAreMandatory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="757" started-at="2022-05-09T15:04:22 BST" finished-at="2022-05-09T15:04:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="setUp" is-config="true" duration-ms="2143" started-at="2022-05-09T15:04:23 BST" finished-at="2022-05-09T15:04:25 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="inIt" is-config="true" duration-ms="6" started-at="2022-05-09T15:04:25 BST" finished-at="2022-05-09T15:04:25 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" duration-ms="598" started-at="2022-05-09T15:04:25 BST" finished-at="2022-05-09T15:04:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterPageTest@4d41cee]" name="tearDown" is-config="true" duration-ms="812" started-at="2022-05-09T15:04:26 BST" finished-at="2022-05-09T15:04:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="setUp" is-config="true" duration-ms="3146" started-at="2022-05-09T15:04:27 BST" finished-at="2022-05-09T15:04:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:04:30 BST" finished-at="2022-05-09T15:04:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyErrorMessageWithInvalidCredentials" duration-ms="1397" started-at="2022-05-09T15:04:30 BST" finished-at="2022-05-09T15:04:31 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWithInvalidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="tearDown" is-config="true" duration-ms="694" started-at="2022-05-09T15:04:31 BST" finished-at="2022-05-09T15:04:32 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="setUp" is-config="true" duration-ms="3093" started-at="2022-05-09T15:04:32 BST" finished-at="2022-05-09T15:04:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:04:35 BST" finished-at="2022-05-09T15:04:35 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToLoginPage()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyUserShouldNavigateToLoginPage" duration-ms="652" started-at="2022-05-09T15:04:35 BST" finished-at="2022-05-09T15:04:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="tearDown" is-config="true" duration-ms="638" started-at="2022-05-09T15:04:36 BST" finished-at="2022-05-09T15:04:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="setUp" is-config="true" duration-ms="2464" started-at="2022-05-09T15:04:36 BST" finished-at="2022-05-09T15:04:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="inIt" is-config="true" duration-ms="9" started-at="2022-05-09T15:04:39 BST" finished-at="2022-05-09T15:04:39 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:2, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" duration-ms="1515" started-at="2022-05-09T15:04:39 BST" finished-at="2022-05-09T15:04:40 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="tearDown" is-config="true" duration-ms="705" started-at="2022-05-09T15:04:40 BST" finished-at="2022-05-09T15:04:41 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="setUp" is-config="true" duration-ms="3082" started-at="2022-05-09T15:04:41 BST" finished-at="2022-05-09T15:04:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="inIt" is-config="true" duration-ms="3" started-at="2022-05-09T15:04:44 BST" finished-at="2022-05-09T15:04:44 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="VerifyThatUserShouldLogOutSuccessFully()[pri:3, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="VerifyThatUserShouldLogOutSuccessFully" duration-ms="2217" started-at="2022-05-09T15:04:44 BST" finished-at="2022-05-09T15:04:46 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyThatUserShouldLogOutSuccessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@4d50efb8]" name="tearDown" is-config="true" duration-ms="741" started-at="2022-05-09T15:04:46 BST" finished-at="2022-05-09T15:04:47 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.ComputerPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="setUp" is-config="true" duration-ms="2923" started-at="2022-05-09T15:04:47 BST" finished-at="2022-05-09T15:04:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="inIt" is-config="true" duration-ms="24" started-at="2022-05-09T15:04:50 BST" finished-at="2022-05-09T15:04:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully" duration-ms="5792" started-at="2022-05-09T15:04:50 BST" data-provider="AddToCart" finished-at="2022-05-09T15:04:56 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.2 GHz Intel Pentium Dual-Core E2200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 GB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[320 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Home [+$50.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Microsoft Office [+$50.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="704" started-at="2022-05-09T15:04:56 BST" finished-at="2022-05-09T15:04:57 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="setUp" is-config="true" duration-ms="2987" started-at="2022-05-09T15:04:57 BST" finished-at="2022-05-09T15:04:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="inIt" is-config="true" duration-ms="15" started-at="2022-05-09T15:04:59 BST" finished-at="2022-05-09T15:05:00 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully" duration-ms="4861" started-at="2022-05-09T15:05:00 BST" data-provider="AddToCart" finished-at="2022-05-09T15:05:04 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4GB [+$20.00]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400 GB [+$100.00]]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Premium [+$60.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Acrobat Reader [+$10.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="683" started-at="2022-05-09T15:05:04 BST" finished-at="2022-05-09T15:05:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="setUp" is-config="true" duration-ms="2265" started-at="2022-05-09T15:05:05 BST" finished-at="2022-05-09T15:05:07 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:05:07 BST" finished-at="2022-05-09T15:05:07 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully" duration-ms="4852" started-at="2022-05-09T15:05:07 BST" data-provider="AddToCart" finished-at="2022-05-09T15:05:12 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8GB [+$60.00]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[320 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vista Home [+$50.00]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Total Commander [+$5.00]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldBuildYouOwnComputerAndAddThemToCartSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="681" started-at="2022-05-09T15:05:12 BST" finished-at="2022-05-09T15:05:13 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="setUp" is-config="true" duration-ms="2970" started-at="2022-05-09T15:05:13 BST" finished-at="2022-05-09T15:05:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="inIt" is-config="true" duration-ms="4" started-at="2022-05-09T15:05:16 BST" finished-at="2022-05-09T15:05:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToComputerPageSuccessfully" duration-ms="658" started-at="2022-05-09T15:05:16 BST" finished-at="2022-05-09T15:05:16 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToComputerPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="758" started-at="2022-05-09T15:05:16 BST" finished-at="2022-05-09T15:05:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="setUp" is-config="true" duration-ms="2951" started-at="2022-05-09T15:05:17 BST" finished-at="2022-05-09T15:05:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-09T15:05:20 BST" finished-at="2022-05-09T15:05:20 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" duration-ms="1230" started-at="2022-05-09T15:05:20 BST" finished-at="2022-05-09T15:05:21 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.ComputerPageTest@2173f6d9]" name="tearDown" is-config="true" duration-ms="781" started-at="2022-05-09T15:05:21 BST" finished-at="2022-05-09T15:05:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.ComputerPageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
